@@ -1,6 +1,6 @@
-# 🌐 IDSA Landscape
+# 🌐 IDS Landscape
 
-**IDSA Landscape** is an open, interactive visual map of the ecosystem surrounding the [International Data Spaces Association (IDSA)](https://internationaldataspaces.org). This project offers a structured overview of the key technologies, members, and collaborative initiatives within the IDS framework.
+**IDS Landscape** is an open, interactive visual map of the ecosystem surrounding the [International Data Spaces Association (IDSA)](https://internationaldataspaces.org). This project offers a structured overview of the key technologies, members, and collaborative initiatives within the IDS framework.
 
 ## 🎯 Purpose
 
