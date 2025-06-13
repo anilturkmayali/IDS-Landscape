@@ -9,11 +9,12 @@ const settings = yaml.load(fs.readFileSync('settings.yml', 'utf8'));
 const outputDir = 'dist';
 mkdirp.sync(outputDir);
 
-function renderItem(item) {
+function renderItem(wrappedItem) {
+  const item = wrappedItem.item;
   const logoPath = item.logo ? `hosted_logos/${item.logo}` : '';
   return `
     <div style="margin-bottom: 20px;">
-      <img src="${logoPath}" alt="${item.name}" style="height: 40px;"><br/>
+      ${item.logo ? `<img src="${logoPath}" alt="${item.name}" style="height: 40px;"><br/>` : ''}
       <a href="${item.homepage_url}" target="_blank"><strong>${item.name}</strong></a><br/>
       <small>${item.organization?.name || ''}</small>
     </div>
